@@ -1,0 +1,3 @@
+Task: 
+1- Check the file if exists or not.
+2- If the file exists, copy it. If not create a file, write to the file and make a copy of it.
