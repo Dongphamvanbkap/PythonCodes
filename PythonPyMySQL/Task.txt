@@ -1,0 +1,6 @@
+Task: 
+1- Connect to the database.
+2- Create a table named user.
+3- Insert fake information to the table.
+4- Select rows and print the table.
+5- Insert, Update, Delete database by Id.
