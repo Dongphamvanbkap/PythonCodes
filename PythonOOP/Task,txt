@@ -1,0 +1,3 @@
+Task:
+Create classes to manage human resourse of a company. Class Employee includes description, apply_raise, quit method.
+Class Developer, Manager inherit from Employee Class.
