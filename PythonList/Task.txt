@@ -1,0 +1,4 @@
+Task:
+1- Create a list for user to input elements.
+2- Ask the user to add more elements to the list or not.
+3- If the element's already existed, ask the user still want to add or not.
