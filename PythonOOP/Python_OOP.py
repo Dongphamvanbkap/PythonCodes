@@ -2,6 +2,8 @@
 # Create classes to manage human resourse of a company. Class Employee includes description, apply_raise, quit method.
 # Class Developer, Manager inherit from Employee Class.
 
+# Solution.
+# Class Employee.
 class Employee:
 
     raise_salary_factor = 1.04
@@ -27,7 +29,7 @@ class Employee:
         # Subtract the number of employees.
         Employee.num_of_employee -= 1
 
-
+# Class Developer inherits from Employee.
 class Developer(Employee):
     raise_salary_factor = 1.10
 
@@ -35,7 +37,7 @@ class Developer(Employee):
         super().__init__(first, last, salary)
         self.prog_lang = prog_lang
 
-
+# Class Manager inherits from Employee.
 class Manager(Employee):
     raise_salary_factor = 1.15
 
